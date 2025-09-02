@@ -27,7 +27,7 @@ const skills: Skill[] = [
     category: "Programming", 
     icon: Code, 
     description: "Dynamic web development & automation",
-    proficiency: 85
+    proficiency: 80
   },
   { 
     name: "Python", 
