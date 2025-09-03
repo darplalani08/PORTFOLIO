@@ -27,14 +27,14 @@ const skills: Skill[] = [
     category: "Programming", 
     icon: Code, 
     description: "Dynamic web development & automation",
-    proficiency: 80
+    proficiency: 70
   },
   { 
     name: "Python", 
     category: "Programming", 
     icon: Code, 
     description: "Security scripting & backend development",
-    proficiency: 90
+    proficiency: 75
   },
   { 
     name: "SQL", 
@@ -48,7 +48,7 @@ const skills: Skill[] = [
     category: "Security", 
     icon: Shield, 
     description: "Vulnerability assessment & penetration testing",
-    proficiency: 40
+    proficiency: 35
   },
   { 
     name: "Event Management", 
