@@ -28,21 +28,21 @@ const volunteers: Volunteer[] = [
     location: "Rajkot, Gujarat",
     icon: Users
   },
-  {
-    title: "Volunteer",
-    organization: "Google Developers Group Gandhinagar",
-    period: "DevFest 2025",
-    status: "COMPLETED", 
-    type: "Volunteer",
-    description: "Volunteered at DevFest 2025, one of the largest developer conferences in Gujarat. Assisted with event management and technical support.",
-    achievements: [
-      "Supported 500+ developers",
-      "Managed registration desk",
-      "Assisted speakers and attendees"
-    ],
-    location: "Gandhinagar, Gujarat",
-    icon: Award
-  }
+  // {
+  //   title: "Volunteer",
+  //   organization: "Google Developers Group Gandhinagar",
+  //   period: "DevFest 2025",
+  //   status: "COMPLETED", 
+  //   type: "Volunteer",
+  //   description: "Volunteered at DevFest 2025, one of the largest developer conferences in Gujarat. Assisted with event management and technical support.",
+  //   achievements: [
+  //     "Supported 500+ developers",
+  //     "Managed registration desk",
+  //     "Assisted speakers and attendees"
+  //   ],
+  //   location: "Gandhinagar, Gujarat",
+  //   icon: Award
+  // }
 ];
 
 export default function Volunteering() {
