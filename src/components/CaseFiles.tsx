@@ -15,23 +15,24 @@ interface Project {
 }
 
 const projects: Project[] = [
-  // {
-  //   id: "001",
-  //   title: "Secure Authentication System",
-  //   threatAssessment: "Develop a robust authentication system with multi-factor authentication to prevent unauthorized access and protect user credentials from common attack vectors.",
-  //   tacticalApproach: [
-  //     "Implemented JWT-based authentication with refresh tokens",
-  //     "Added bcrypt password hashing with salt rounds",
-  //     "Integrated rate limiting to prevent brute force attacks",
-  //     "Built secure session management with automatic logout"
-  //   ],
-  //   technologies: ["Node.js", "Express.js", "MongoDB", "JWT", "bcrypt"],
-  //   systemStatus: "SECURED",
-  //   category: "Security",
-  //   icon: Shield,
-  //   githubUrl: "https://github.com/darp99",
-  //   liveUrl: "https://secure-auth-demo.com"
-  // },
+  {
+    id: "001",
+    title: "Interactive Honeypot Tracker",
+    threatAssessment: "Deploy a low-interaction honeypot to detect, log, and analyze unauthorized network access attempts. The system is designed to identify reconnaissance scans and capture attacker methodologies without exposing critical infrastructure.",
+    tacticalApproach: [
+      "Developed a TCP socket listener in Python to act as a digital trap on a specific port",
+      "Engineered a simulated service with a fake firewall and login prompt to engage attackers and log their inputs",
+      "Implemented a robust logging system to save all interaction details, including IP address, timestamp, and messages, to a text file",
+      "Built a real-time web dashboard using Flask to parse and display captured logs from any web browser"
+    ],
+    technologies: ["Python", "Socket", "Flask", "HTML", "CSS"],
+    systemStatus: "IN_PROGRESS",
+    category: "Security",
+    icon: Shield,
+    githubUrl: " ",
+    liveUrl: " "
+    
+  },
   
   
   
