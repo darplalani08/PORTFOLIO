@@ -18,7 +18,7 @@ const experiences: Experience[] = [
     period: "Jan 2025 - Present",
     status: "ACTIVE",
     type: "Leadership",
-    description: "LCore Team Member at Google Developer Group Cloud Rajkot, contributing to community growth through cloud technology initiatives, cybersecurity discussions, and event operations. Actively involved in designing event creatives, handling community engagement, and supporting technical sessions. Collaborating with organizers to deliver impactful meetups and knowledge-sharing activities for the local developer ecosystem.",
+    description: "Core Team Member at Google Developer Group Cloud Rajkot, contributing to community growth through cloud technology initiatives, cybersecurity discussions, and event operations. Actively involved in designing event creatives, handling community engagement, and supporting technical sessions. Collaborating with organizers to deliver impactful meetups and knowledge-sharing activities for the local developer ecosystem.",
     achievements: [
       "Contributed to cloud security and Google Cloud–focused discussions during meetups",
       "Handled event planning and on-ground coordination for community sessions",
