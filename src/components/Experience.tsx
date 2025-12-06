@@ -13,16 +13,17 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: "Event Coordinator",
-    organization: "Cyber Blockchain Club",
-    period: "Aug 2025 - Present",
+    title: "Core Team Member",
+    organization: "GDG Cloud Rajkot",
+    period: "Jan 2025 - Present",
     status: "ACTIVE",
     type: "Leadership",
-    description: "Leading cybersecurity awareness initiatives and organizing technical workshops for students. Managing club activities and coordinating with industry professionals.",
+    description: "LCore Team Member at Google Developer Group Cloud Rajkot, contributing to community growth through cloud technology initiatives, cybersecurity discussions, and event operations. Actively involved in designing event creatives, handling community engagement, and supporting technical sessions. Collaborating with organizers to deliver impactful meetups and knowledge-sharing activities for the local developer ecosystem.",
     achievements: [
-      "Organized 5+ cybersecurity workshops",
-      "Increased club membership by 40%",
-      "Established partnerships with security firms"
+      "Contributed to cloud security and Google Cloud–focused discussions during meetups",
+      "Handled event planning and on-ground coordination for community sessions",
+      "Worked closely with speakers and organizers to ensure smooth execution of events",
+      "Designed promotional assets and event creatives, including banners, tickets, session cards, and social media posts"
     ],
     icon: Users
   }
