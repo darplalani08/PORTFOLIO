@@ -14,18 +14,19 @@ interface Volunteer {
 
 const volunteers: Volunteer[] = [
   {
-    title: "Crew Member",
-    organization: "GDG Cloud Rajkot",
-    period: "2024 - Present",
+    title: "Event Co-Lead",
+    organization: "Google Developer Student Club",
+    period: "August 2025 - Present",
     status: "ONGOING",
     type: "Community",
-    description: "Active contributor to Google Developer Group focusing on cloud technologies and cybersecurity. Participating in community events and knowledge sharing sessions.",
+    description: "Event Co-Lead at Google Developer Student Club, Symbiosis Institute of Technology, responsible for ideating, planning, and executing technical and community-driven events. Collaborating with core team members to organize workshops, club activities, speaker sessions, and hackathons. Focused on improving student engagement, promoting Google technologies, and building a strong developer community on campus.",
     achievements: [
-      "Contributed to cloud security discussions",
-      "Mentored junior developers",
-      "Participated in technical sessions"
+      "Planned and executed high-impact tech events, workshops, and developer activities for the GDSC community",
+      "Coordinated with speakers, mentors, and partners for seamless event operations",
+      "Led logistics, registrations, and attendee engagement to ensure smooth event flow",
+      "Contributed to curriculum design for hands-on sessions related to cloud, web, and AI technologies"
     ],
-    location: "Rajkot, Gujarat",
+    location: "Pune, Maharashtra",
     icon: Users
   },
 
@@ -38,7 +39,7 @@ export default function Volunteering() {
         {/* Section Header */}
         <div className="mb-12">
           <h2 className="text-4xl font-bold text-gradient-cyber mb-4">
-            Volunteering
+            Position of Responsibility
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
             Community engagement and volunteer contributions
