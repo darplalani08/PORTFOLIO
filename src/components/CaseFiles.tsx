@@ -29,10 +29,30 @@ const projects: Project[] = [
     systemStatus: "IN_PROGRESS",
     category: "Security",
     icon: Shield,
-    githubUrl: " ",
+    githubUrl: " https://github.com/darplalani08",
     liveUrl: " "
-    
+
   },
+
+  {
+    id: "002",
+    title: "Ethical Input-Capture Key_Logger",
+    threatAssessment: "A controlled, consent-driven study tool that records typed input events in a lab environment to evaluate user behavior, typing biometrics, and detection techniques. Designed strictly for research, education, and defensive security—all participants provide informed consent and data is handled to protect privacy. The project aims to help defenders understand detection signals, evaluate privacy risks, and train classifiers for malicious activity detection.",
+    tacticalApproach: [
+      "Created a safe, controlled Python script that listens for keyboard event metadata (e.g., event timestamps, number of key events) rather than raw text.",
+      "Implemented clear consent prompts and a visible indicator to ensure transparency during data collection.",
+      "Stored metadata in a lightweight file for analysis of typing patterns — without storing actual typed content.",
+      "Added safeguards to immediately stop collection if the user closes the consent window or disables logging."
+    ],
+    technologies: ["Python",],
+    systemStatus: "IN_PROGRESS",
+    category: "Security",
+    icon: Shield,
+    githubUrl: " https://github.com/darplalani08/keylogger",
+    liveUrl: " "
+  }
+  
+  
   
   
   
